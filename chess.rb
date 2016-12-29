@@ -14,5 +14,8 @@ class Chess
   end
 end
 
+puts "Please enter a number: "
+number = gets.chomp.to_i
+
 game = Chess.new
-game.output(4)
+game.output(number)
