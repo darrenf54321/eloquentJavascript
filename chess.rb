@@ -4,7 +4,7 @@ hash2 = " #"
 count = size
 
 while (count > 0)
-puts (hash1 * size)
-puts (hash2 * size)
+  puts (hash1 * size)
+  puts (hash2 * size)
 count -= 2
 end
